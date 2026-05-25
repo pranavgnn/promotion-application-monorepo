@@ -1,12 +1,13 @@
 {
     "name": "promotion-application",
+    "private": true,
     "version": "1.0.0",
     "workspaces": [
         "apps/*",
         "packages/*"
     ],
     "scripts": {
-        "dev": "bun --filter \"*\" run dev",
+        "dev": "bun --workspaces run dev",
         "format": "biome format --write .",
         "lint": "biome lint --write .",
         "check": "biome check --write ."

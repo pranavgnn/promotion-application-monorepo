@@ -1,11 +1,11 @@
 {
-    "name": "api",
+    "name": "@apps/api",
     "scripts": {
         "dev": "bun run --hot src/index.ts"
     },
     "dependencies": {
         "hono": "^4.12.23",
-        "@workspace/core": "workspace:*"
+        "@packages/core": "workspace:*"
     },
     "devDependencies": {
         "@types/bun": "^1.3.14"

@@ -5,11 +5,22 @@
         "source.organizeImports.biome": "explicit"
     },
     "[typescript]": {
+        "editor.defaultFormatter": "biomejs.biome",
         "editor.insertSpaces": true,
         "editor.tabSize": 4
     },
     "[typescriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome",
         "editor.insertSpaces": true,
         "editor.tabSize": 2
+    },
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.defaultFormatter": "biomejs.biome",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
     }
 }

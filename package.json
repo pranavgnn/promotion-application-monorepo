@@ -1,0 +1,17 @@
+{
+    "name": "promotion-application",
+    "version": "1.0.0",
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "dev": "bun --filter \"*\" run dev",
+        "format": "biome format --write .",
+        "lint": "biome lint --write .",
+        "check": "biome check --write ."
+    },
+    "devDependencies": {
+        "@biomejs/biome": "2.4.15"
+    }
+}
